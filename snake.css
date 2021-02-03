@@ -1,11 +1,39 @@
+body{
+    background: linear-gradient(to bottom right, #cc00cc -33%, #006600 100%);
+}
 #container{
-    width: 810px;
-    height: 810px;
-    margin-top: 50px;
+    width: 800px;
+    height: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 8px;
+}
+#options{
+    width: 800px;
+    height: 25px;
+    border-bottom: solid;
+    border-width: 10px;
+}
+.information{
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid;
+    border-width: 10px;
+}
+.canvas-snake{
     margin-left: auto;
     margin-right: auto;
 }
-canvas{
-    margin-left: auto;
-    margin-right: auto;
+button{
+    height: 25px;
+    margin-bottom: 5px;
+    border: none;
+    background: linear-gradient(to left, #660066 -33%, #cc00cc 100%);
+    color: white;
+}
+button:active{
+    background-color: black;
+    color: black;
 }
